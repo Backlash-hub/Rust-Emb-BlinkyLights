@@ -1,0 +1,11 @@
+[package]
+name = "Rust-Emb-BlinkyLights"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7"
+microbit-v2 = "0.14"
+embedded-hal = "1.0"
+panic-halt = "0.2"
