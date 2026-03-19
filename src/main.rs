@@ -24,6 +24,6 @@ fn main() -> ! {
         row.set_high().unwrap();
         timer.delay_ms(500);
         row.set_low().unwrap();
-        timer.delay_ms(500);
+        timer.delay_ms(10000);
     }
 }

@@ -11,4 +11,8 @@ embedded-hal = "1.0"
 panic-halt = "0.2"
 
 [[bin]]
+name = "Rust-Emb-BlinkyLights"
+path = "src/main.rs"
 test = false
+doctest = false
+bench = false
