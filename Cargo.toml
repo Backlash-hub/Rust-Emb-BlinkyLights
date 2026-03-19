@@ -9,3 +9,6 @@ cortex-m-rt = "0.7"
 microbit-v2 = "0.14"
 embedded-hal = "1.0"
 panic-halt = "0.2"
+
+[[bin]]
+test = false
