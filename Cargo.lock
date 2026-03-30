@@ -6,7 +6,6 @@ version = 4
 name = "Rust-Emb-BlinkyLights"
 version = "0.1.0"
 dependencies = [
- "cortex-m",
  "cortex-m-rt",
  "embedded-hal 1.0.0",
  "microbit-v2",
@@ -60,7 +59,6 @@ checksum = "8ec610d8f49840a5b376c69663b6369e71f4b34484b9b2eb29fb918d92516cb9"
 dependencies = [
  "bare-metal",
  "bitfield",
- "critical-section",
  "embedded-hal 0.2.7",
  "volatile-register",
 ]
